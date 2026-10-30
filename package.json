@@ -1,0 +1,25 @@
+{
+  "name": "soundtroll",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord bot that plays a scheduled or on-demand audio clip in a voice channel.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "cron": "^3.5.0",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
