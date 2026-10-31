@@ -8,5 +8,5 @@ services:
     environment:
       SOUNDTROLL_CONFIG_PATH: /app/config/config.yml
     volumes:
-      - ./config:/app/config:ro
-      - ./audio:/app/audio:ro
+      - ./config:/app/config
+      - ./audio:/app/audio
