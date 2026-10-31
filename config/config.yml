@@ -1,8 +1,8 @@
 cronExpression: "0 0 20 * * *"
 timezone: UTC
-authorizedUserIds: []
+authorizedUserIds: [123456789]
 
 audios:
-  # - path: /Users/aferrero/Projects/sound-troll/audio/no-se-trata-de-tener-el-p-grande-daniel.mp3
-  # - path: /Users/aferrero/Projects/sound-troll/audio/che-a-la-hora-que-termines-de-hacer-lo-que-estas-haciendo.mp3
-  - path: /Users/aferrero/Projects/sound-troll/audio/buenas.mp3
+  - path: /app/audio/clip-a.mp3
+  - path: /app/audio/clip-b.mp3
+  - path: /app/audio/clip-c.mp3
